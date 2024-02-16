@@ -15,11 +15,12 @@ public class Category {
     @Id
     @GeneratedValue(strategy = GenerationType.SEQUENCE, generator = "category_seq")
     @SequenceGenerator(name = "category_seq", sequenceName = "category_seq", allocationSize = 1)
-    private Long id;
+    private long id;
     private String title;
     private String link;
     private String image;
     private Integer orderItem;
     @OneToMany
     private List<Video> videos;
+    private boolean enable;
 }

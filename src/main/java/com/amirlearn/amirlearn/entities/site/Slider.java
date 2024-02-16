@@ -1,5 +1,6 @@
 package com.amirlearn.amirlearn.entities.site;
 
+import jakarta.persistence.Column;
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.Id;
@@ -14,10 +15,12 @@ import lombok.NoArgsConstructor;
 public class Slider {
     @Id
     @GeneratedValue
-    private Long id;
+    private long id;
     private String title;
     private String link;
     private String image;
     private String description;
+    @Column(name = "order_item")
     private Integer orderItem;
+    private boolean enable;
 }
