@@ -15,7 +15,7 @@ import lombok.NoArgsConstructor;
 public class Slider {
     @Id
     @GeneratedValue
-    private Long id;
+    private long id;
     private String title;
     private String link;
     private String image;

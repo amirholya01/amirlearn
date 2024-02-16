@@ -14,7 +14,7 @@ import lombok.NoArgsConstructor;
 public class Content {
     @Id
     @GeneratedValue
-    private Long id;
+    private long id;
     private String key;
     private String value;
 }

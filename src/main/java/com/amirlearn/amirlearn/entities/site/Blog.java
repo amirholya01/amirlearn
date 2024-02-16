@@ -17,7 +17,7 @@ import java.util.Date;
 public class Blog {
     @Id
     @GeneratedValue
-    private Long id;
+    private long id;
     private String title;
     private String description;
     private String image;

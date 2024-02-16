@@ -14,7 +14,7 @@ import lombok.NoArgsConstructor;
 public class Nav {
     @Id
     @GeneratedValue
-    private Long id;
+    private long id;
     private String title;
     private String link;
     private boolean enable;
