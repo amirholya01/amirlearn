@@ -1,14 +1,11 @@
 package com.amirlearn.amirlearn.services.site;
 
 import com.amirlearn.amirlearn.entities.site.Content;
-import com.amirlearn.amirlearn.exceptions.DataNotFoundException;
-import com.amirlearn.amirlearn.repositories.site.ContentRepository;
+import com.amirlearn.amirlearn.helper.exceptions.DataNotFoundException;
 import com.amirlearn.amirlearn.repositories.site.ContentRepository;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.data.domain.Sort;
 import org.springframework.stereotype.Service;
 
-import java.util.List;
 import java.util.Optional;
 
 @Service

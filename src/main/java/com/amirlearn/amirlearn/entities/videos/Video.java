@@ -20,7 +20,7 @@ public class Video {
     private String description;
     private String image;
     private String url;
-    private Long visitCount;
+    private long visitCount;
     private Date publishDate;
     private boolean enable;
     @ManyToOne
