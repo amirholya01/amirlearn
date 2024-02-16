@@ -17,4 +17,5 @@ public class Nav {
     private Long id;
     private String title;
     private String link;
+    private boolean enable;
 }

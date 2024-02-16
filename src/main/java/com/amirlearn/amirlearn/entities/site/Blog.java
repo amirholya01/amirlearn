@@ -1,5 +1,6 @@
 package com.amirlearn.amirlearn.entities.site;
 
+import com.amirlearn.amirlearn.enums.BlogStatus;
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.Id;
@@ -21,4 +22,5 @@ public class Blog {
     private String description;
     private String image;
     private Date publishDate;
+    private BlogStatus status;
 }

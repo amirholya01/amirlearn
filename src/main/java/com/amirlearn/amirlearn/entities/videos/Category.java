@@ -22,4 +22,5 @@ public class Category {
     private Integer orderItem;
     @OneToMany
     private List<Video> videos;
+    private boolean enable;
 }

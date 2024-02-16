@@ -22,6 +22,7 @@ public class Video {
     private String url;
     private Long visitCount;
     private Date publishDate;
+    private boolean enable;
     @ManyToOne
     @JoinColumn(name = "category_id", nullable = false)
     private Category category;
