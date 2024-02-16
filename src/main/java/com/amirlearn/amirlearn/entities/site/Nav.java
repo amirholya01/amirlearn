@@ -18,4 +18,5 @@ public class Nav {
     private String title;
     private String link;
     private boolean enable;
+    private Integer orderItem;
 }
